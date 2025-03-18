@@ -338,28 +338,15 @@ tr:hover {
         text-align: center;
     }
 }
-.hamburger {
-    display: none; 
-    font-size: 24px;
-    cursor: pointer;
-    background: none;
-    border: none;
-    color: white;
-    padding: 10px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-}
-
 @media (max-width: 768px) {
     .navbar {
         display: none;
         flex-direction: column;
         width: 100%;
+        background-color: rgb(5, 20, 33);
         position: absolute;
         top: 60px;
         left: 0;
-        background-color: rgb(5, 20, 33);
     }
 
     .navbar a {
@@ -368,39 +355,5 @@ tr:hover {
         display: block;
     }
 
-    .hamburger {
-        display: block;
-    }
-
-    .navbar.active {
-        display: flex;
-    }
-}
-
-#faq {
-    background: linear-gradient(to right, #e3f2fd, #bbdefb);
-    color: black;
-}
-
-.faq-container {
-    max-width: 800px;
-    margin: 3rem auto;
-    padding: 2rem;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.faq-item {
-    margin-bottom: 1.5rem;
-    padding: 1rem;
-    border-radius: 8px;
-    background: #f8f9fa;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-.faq-item h3 {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-    color: #014f4f;
+   
 }
