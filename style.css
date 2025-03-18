@@ -357,3 +357,30 @@ tr:hover {
 
    
 }
+#faq {
+    background: linear-gradient(to right, #e3f2fd, #bbdefb);
+    color: black;
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: 8px;
+    background: #f8f9fa;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #014f4f;
+}
